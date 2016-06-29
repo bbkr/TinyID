@@ -1,4 +1,4 @@
-# Shorten and obfuscate your IDs
+# Shorten and obfuscate IDs
 
 [![Build Status](https://travis-ci.org/bbkr/TinyID.svg?branch=master)](https://travis-ci.org/bbkr/TinyID)
 
@@ -67,7 +67,7 @@ Or you can go wild just for the fun of it.
     TinyID.new( key => $key ).encode( 48888851145 ).say;    # '😭😢😀😊😫😉'
 ```
 
-If you want to use such IDs in communication between Perl 5 and Perl 6
+If you want to use such IDs in a communication between Perl 5 and Perl 6
 [compatible module is also available](http://search.cpan.org/~bbkr/Integer-Tiny-0.3/lib/Integer/Tiny.pm).
 
 ## LICENSE
