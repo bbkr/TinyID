@@ -1,9 +1,7 @@
+language: perl6
 os:
   - linux
   - osx
-branches:
-  only:
-    - master
-language: perl6
-perl6:
-  - latest
+dist: trusty
+sudo: required
+osx_image: xcode8.3
