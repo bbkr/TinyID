@@ -67,9 +67,10 @@ Or you can go wild just for the fun of it.
     TinyID.new( key => $key ).encode( 48888851145 ).say;    # '😭😢😀😊😫😉'
 ```
 
-If you want to use such IDs in a communication between Perl 5 and Perl 6
-[compatible module is also available](http://search.cpan.org/~bbkr/Integer-Tiny-0.3/lib/Integer/Tiny.pm).
+## OTHER IMPLEMENTATIONS
 
+* [Perl 5](http://search.cpan.org/~bbkr/Integer-Tiny-0.3/lib/Integer/Tiny.pm)
+* [PHP](https://github.com/krowinski/tinyID)
 
 ## CONTACT
 
