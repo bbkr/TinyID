@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   test:
-    runs-on: [ ubuntu-latest, macos-latest ]
+    runs-on: [ubuntu-latest, macos-latest]
     steps:
     - name: Checkout
       uses: actions/checkout@v2
