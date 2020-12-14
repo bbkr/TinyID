@@ -1,10 +1,10 @@
-# Shorten and obfuscate IDs
+# Shorten and obfuscate IDs in [Raku](https://www.raku.org) language
 
-[![Build Status](https://travis-ci.org/bbkr/TinyID.svg?branch=master)](https://travis-ci.org/bbkr/TinyID)
+![test](https://github.com/bbkr/TinyID/workflows/test/badge.svg)
 
 ## SYNOPSIS
 
-```perl
+```raku
     use TinyID;
     
     my $key = ( 'a'..'z', 'A'..'Z', 0..9 ).flat.pick( * ).join;
@@ -56,23 +56,18 @@ Decode string back into a positive integer.
 
 If you provide sequential characters in key you can convert your numbers to some weird numeric systems, for example base18:
 
-```perl
+```raku
     TinyID.new( key => '0123456789ABCDEFGH' ).encode( 48888851145 ).say;    # '47F709HFF'
 ```
 
 Or you can go wild just for the fun of it.
 
-```perl
+```raku
     my $key = ( '😀'..'😿' ).flat.join; # emoji subset
     TinyID.new( key => $key ).encode( 48888851145 ).say;    # '😭😢😀😊😫😉'
 ```
 
 ## OTHER IMPLEMENTATIONS
 
-* [Perl 5](http://search.cpan.org/~bbkr/Integer-Tiny-0.3/lib/Integer/Tiny.pm)
+* [Perl](http://search.cpan.org/~bbkr/Integer-Tiny-0.3/lib/Integer/Tiny.pm)
 * [PHP](https://github.com/krowinski/tinyID)
-
-## CONTACT
-
-You can find me (and many awesome people who helped me to develop this module)
-on irc.freenode.net #perl6 channel as **bbkr**.
