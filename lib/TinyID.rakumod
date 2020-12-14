@@ -1,4 +1,4 @@
-unit class TinyID:auth<github:bbkr>:ver<1.0.0>;
+unit class TinyID:auth<github:bbkr>:ver<1.0.1>;
 
 has $!length;
 has %!chars_to_positions;

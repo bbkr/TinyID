@@ -1,11 +1,11 @@
 {
     "perl": "6.c",
     "name": "TinyID",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shorten and obfuscate IDs.",
     "authors" : [ "Paweł bbkr Pabian" ],
     "provides": {
-        "TinyID": "lib/TinyID.pm"
+        "TinyID": "lib/TinyID.rakumod"
     },
     "license" : "Artistic-2.0",
     "source-url": "git://github.com/bbkr/TinyID.git"
