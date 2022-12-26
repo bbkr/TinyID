@@ -1,6 +1,6 @@
 # Shorten and obfuscate IDs in [Raku](https://www.raku.org) language
 
-![test](https://github.com/bbkr/TinyID/workflows/test/badge.svg)
+[![test](https://github.com/bbkr/TinyID/actions/workflows/test.yml/badge.svg)](https://github.com/bbkr/TinyID/actions/workflows/test.yml)
 
 ## SYNOPSIS
 
