@@ -1,6 +1,6 @@
 {
     "name": "TinyID",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Shorten and obfuscate IDs.",
     "authors" : [ "Paweł bbkr Pabian" ],
     "auth": "zef:bbkr",
