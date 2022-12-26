@@ -1,9 +1,9 @@
 {
-    "perl": "6.d",
     "name": "TinyID",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Shorten and obfuscate IDs.",
     "authors" : [ "Paweł bbkr Pabian" ],
+    "auth": "zef:bbkr",
     "provides": {
         "TinyID": "lib/TinyID.rakumod"
     },
